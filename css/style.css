@@ -9,10 +9,12 @@ a {
   color: #fff;
   cursor: pointer;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
-
+p {
+  margin-top: 0.3rem;
+}
 body {
   font-family: sans-serif;
   overflow: hidden;
@@ -41,4 +43,14 @@ span {
 }
 video:focus {
   outline: none;
+}
+
+#linek {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+}
+#linek:hover {
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: scale(2) translateX(25%);
 }
